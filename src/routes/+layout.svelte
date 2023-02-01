@@ -10,7 +10,7 @@
 <svelte:window bind:innerWidth />
 
 <div class="page-container">
-    <div class="w-screen bg-blue-50">
+    <div class="w-screen ">
         <Navbar />
     </div>
     <slot />

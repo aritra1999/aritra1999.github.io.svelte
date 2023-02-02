@@ -1,5 +1,5 @@
 import { writable } from "svelte/store";
 
 export const metaStore = writable({
-    screen: 'none'
+    screen: 'desktop'
 });

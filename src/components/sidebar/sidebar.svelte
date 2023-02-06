@@ -7,6 +7,7 @@
     const sidebarItems = sideBarContent.sidebarItems;
     const sidebarSocialItems = sideBarContent.sidebarSocialItems;
     
+    
 </script>
 
 <button on:click={() => {$metaStore.showSidebar = !$metaStore.showSidebar}}>
@@ -15,8 +16,8 @@
     </svg>
 </button>
 
-<div class="h-[calc(100vh-80px)] px-2 pt-2 w-72 absolute ease-in-out transition-all duration-300 z-30 left-0 top-[70px] {$metaStore.showSidebar ? 'translate-x-0' : '-translate-x-full'}">
-    <div class="bg-white h-full px-2 rounded-lg">
+<div class="h-[calc(100vh-80px)] px-2 w-72 absolute ease-in-out transition-all duration-300 z-30 left-0 top-[70px] {$metaStore.showSidebar ? 'translate-x-0' : '-translate-x-full'} border-r-4 border-blue-50">
+    <div class="bg-white h-full px-2 rounded-xl">
         <div class="py-4">
             <Contact />
         </div>

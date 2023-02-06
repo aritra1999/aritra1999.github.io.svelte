@@ -5,7 +5,7 @@
 </script>
 
 <div class="navbar-container p-2">
-    <div class="py-2 px-4 w-full rounded-lg text-slate-600 text-sm flex justify-between items-center">
+    <div class="py-2 px-4 w-full rounded-xl bg-white text-slate-600 text-sm flex justify-between items-center">
         <div class="flex items-center text-slate-800 font-semibold">
             <Sidebar />
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="h-7 w-7 mr-2 text-red-600" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">

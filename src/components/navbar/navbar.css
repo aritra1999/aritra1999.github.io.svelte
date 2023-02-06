@@ -1,5 +1,5 @@
 .navbar-container {
-    @apply h-[70px] z-40 flex justify-between items-center fixed w-screen bg-slate-50;
+    @apply h-[70px] z-40 flex justify-between items-center fixed w-screen bg-transparent;
 }
 
 .profile-picture {

@@ -9,6 +9,10 @@ body, html, .page-container {
     font-family: 'Rubik', sans-serif;
 }
 
+body {
+    @apply bg-slate-50;
+}
+
 *:focus {
     outline: none;
 }   

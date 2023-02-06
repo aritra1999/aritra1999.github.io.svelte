@@ -27,7 +27,7 @@
     <img src={profilePicture} class="profile-picture" alt="User" />
 </button>
 {#if showProfileDropDown}
-    <div class="z-50 fixed top-[70px] right-8 w-80 rounded-lg border border-slate-200 p-2 shadow-sm bg-white">
+    <div class="z-50 fixed top-[70px] right-8 w-80 rounded-xl border border-slate-200 p-2 shadow-sm bg-white">
         <div class="flex flex-col items-center mb-4">
             <img src={profilePicture1} class="w-24 h-24 mb-3 mt-3 object-cover rounded-full" alt="User" />
             <div class="mb text-sm"> Aritra Mondal </div>
@@ -38,7 +38,7 @@
         </div>
         <div class="space-y-2">
             {#each emailList as email}
-                <div class="flex items-center w-full py-2 px-4 rounded-lg bg-slate-50 hover:bg-blue-50 hover:text-blue-700">
+                <div class="flex items-center w-full py-2 px-4 rounded-xl bg-slate-50 hover:bg-blue-50 hover:text-blue-700">
                     <img src={email.displayPicture} class="w-7 h-7 object-cover rounded-full mr-4" alt="">
                     <div class="text-xs">
                         <div>{email.title}</div>

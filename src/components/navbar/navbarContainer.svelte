@@ -4,7 +4,7 @@
     import NavbarDesktop from "./navbarDesktop.svelte";
     
 </script>
-<div class="h-[70px]">
+<div class="h-[5rem]">
     {#if $metaStore.screen === 'mobile' }
         <NavbarMobile />
     {:else}

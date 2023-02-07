@@ -10,7 +10,7 @@ body, html, .page-container {
 }
 
 body {
-    @apply bg-blue-50;
+    @apply bg-sky-50;
 }
 
 *:focus {

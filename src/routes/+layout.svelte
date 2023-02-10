@@ -20,7 +20,7 @@
             <div class="flex h-[calc(100vh-10rem)] overflow-y-auto w-full border-slate-200">
                 <div class="{$metaStore.screen === 'desktop' ? 'border-r border-slate-200 w-[40rem]': 'w-full'} overflow-y-auto"><EmailList/></div>
                 {#if $metaStore.screen === 'desktop' || $page.url.pathname !== '/'}
-                    <div class="{$metaStore.screen !== 'desktop' ? 'absolute left-0 w-screen h-[calc(100vh-5rem)]' : 'w-full'} p-2 bg-white z-50">
+                    <div class="{$metaStore.screen !== 'desktop' ? 'absolute left-0 w-screen h-[calc(100vh-5rem)]' : 'w-full'} p-2 bg-white z-50 overflow-y-auto">
                         <slot />
                     </div>
                 {/if}

@@ -1,10 +1,11 @@
 <script lang="ts">
-    export let item; 
+	import type { PLItem } from "../../types/types";
+    export let item: PLItem; 
 </script>
 
-<div class="bg-white border border-slate-200 hover:shadow-lg rounded-lg mb-8">
-    <div class="w-full h-48 p-2">
-        <img class="rounded-t-lg object-cover w-full h-48" src="/src/images/{item.thumbnail}" alt=""/> 
+<div class="bg-sky-50 hover:shadow-sm rounded-2xl mb-8">
+    <div class="w-full h-48">
+        <img class="rounded-t-2xl object-cover w-full h-48" src="/src/images/{item.thumbnail}" alt=""/> 
     </div>
     <div class="pt-6 px-6 pb-4">
         <div>
@@ -21,9 +22,7 @@
             <p class="text-sm font-medium text-slate-800 mb-2">{item.description}</p>
             <div>
                 {#each item.tags as tag}
-                    <div class="px-2 mb-1 mr-2 inline-block py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-600">
-                        {tag}
-                    </div>
+                    <div class="px-2 mb-1 mr-2 inline-block py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-600">{tag}</div>
                 {/each}
             </div>   
         </div>
@@ -32,7 +31,7 @@
                 <div class="flex items-center text-blue-600 font-medium text-sm">
                     <a href="{link.link}" target="_blank" rel="noreferrer">{link.type}</a>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 ml-1"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        <path d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
                 </div>
             {/each}

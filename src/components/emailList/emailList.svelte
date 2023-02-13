@@ -50,24 +50,16 @@
             timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
         },
         {
-            title: "Resume",
-            link: "/resume",
-            subject: "This is the resume page.",
-            content: "Have a look at my resume",
-            attachments: [
-                {
-                    name: "paper1.pdf",
-                    type: "pdf"
-                }
-            ],
-            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        },
-        {
             title: "About me",
             link: "/about",
             subject: "This is the about me page.",
             content: "A brief about my education, work experience, achievements and skills ...",
-            attachments: [],
+            attachments: [
+                {
+                    name: "resume.pdf",
+                    type: "pdf"
+                }
+            ],
             timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
         },
     ]

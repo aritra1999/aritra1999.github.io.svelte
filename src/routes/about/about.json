@@ -108,6 +108,7 @@
             "logo": "dps.png",
             "roles": [
                 {
+                    "role": "Computer Science",
                     "scope": "High School",
                     "duration": "June 2016 - June 2018"
                 }

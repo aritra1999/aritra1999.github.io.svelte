@@ -42,10 +42,6 @@ body {
     transition: background-size 0.25s ease-in;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 ::-webkit-scrollbar {
     width: 7px;
     border-radius: 10px;

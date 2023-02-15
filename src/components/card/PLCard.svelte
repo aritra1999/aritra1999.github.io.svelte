@@ -5,7 +5,7 @@
     export let item: PLItem; 
     let thumbnail: any;
     onMount(async () => {
-        thumbnail = (await import (`../../images/${item.thumbnail}`)).default;
+        thumbnail = (await import (`../../assets/${item.thumbnail}`)).default;
         console.log(thumbnail);
     });
     

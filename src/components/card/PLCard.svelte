@@ -1,20 +1,14 @@
 <script lang="ts">
-	import { onMount } from "svelte";
     import type { PLItem } from "../../types/types";
     
-    export let item: PLItem; 
-    let thumbnail: any;
-    onMount(async () => {
-        thumbnail = (await import (`../../assets/immutable/${item.thumbnail}`)).default;
-        console.log(thumbnail);
-    });
+    export let item: PLItem;    
     
     
 </script>
 
 <div class="card">
     <div class="w-full h-48">
-        <img class="rounded-t-2xl object-cover w-full h-48" alt="{item.title}" src={thumbnail}/> 
+        <img class="rounded-t-2xl object-cover w-full h-48" alt="{item.title}" src="images/{item.thumbnail}"/> 
     </div>
     <div class="pt-6 px-6 pb-4">
         <div class="mb-2 flex items-center">

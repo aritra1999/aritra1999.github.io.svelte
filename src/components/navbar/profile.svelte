@@ -1,7 +1,7 @@
 <script lang="ts">
-    import profilePicture from "../../images/navbar-user.jpg";
-    import profilePicture1 from "../../images/me.jpeg"
-    import profilePicture2 from "../../images/me2.png"
+    import profilePicture from "$lib/images/navbar-user.jpg";
+    import profilePicture1 from "$lib/images/me.jpeg"
+    import profilePicture2 from "$lib/images/me2.png"
 
     let showProfileDropDown = false; 
     let emailList = [
@@ -13,12 +13,12 @@
         {
             title: "Aritra Mondal - Office Email",
             email: "aritra.mondal@lenaix.net", 
-            displayPicture: profilePicture2
+            displayPicture: profilePicture1
         },
         {
             title: "Aritra Mondal - ACM Official Email",
             email: "aritra@kiit.acm.org", 
-            displayPicture: profilePicture
+            displayPicture: profilePicture2
         }
     ]
 
@@ -29,7 +29,7 @@
 {#if showProfileDropDown}
     <div class="z-50 fixed top-[70px] right-8 w-80 rounded-xl border border-slate-200 p-2 shadow-sm bg-white">
         <div class="flex flex-col items-center mb-4">
-            <img src={profilePicture1} class="w-24 h-24 mb-3 mt-3 object-cover rounded-full" alt="User" />
+            <img src={profilePicture} class="w-24 h-24 mb-3 mt-3 object-cover rounded-full" alt="User" />
             <div class="mb text-sm"> Aritra Mondal </div>
             <div class="border-slate-600 text-xs mb-3"> aritra041999@gmail.com </div>
             <button class="rounded-full px-4 pt-1.5 pb-1 border border-slate-300 text-slate-500 hover:bg-slate-100 text-xs font-semibold">

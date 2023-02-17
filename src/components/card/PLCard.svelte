@@ -1,11 +1,12 @@
 <script lang="ts">
-	import type { PLItem } from "../../types/types";
-    export let item: PLItem; 
+    import type { PLItem } from "../../types/types";
+    
+    export let item: PLItem;    
 </script>
 
 <div class="card">
     <div class="w-full h-48">
-        <img class="rounded-t-2xl object-cover w-full h-48" src="/src/images/{item.thumbnail}" alt="{item.title}"/> 
+        <img class="rounded-t-2xl object-cover w-full h-48" alt="{item.title}" src="https://raw.githubusercontent.com/aritra1999/aritra1999.github.io.svelte/master/src/lib/images/{item.thumbnail}"/> 
     </div>
     <div class="pt-6 px-6 pb-4">
         <div class="mb-2 flex items-center">

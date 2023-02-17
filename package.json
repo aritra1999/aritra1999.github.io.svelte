@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^2.0.1"
+		"@sveltejs/adapter-vercel": "^2.0.1",
+		"svelte-preprocess-import-assets": "^0.2.5"
 	}
 }

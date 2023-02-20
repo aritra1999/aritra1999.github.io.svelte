@@ -1,91 +1,9 @@
 <script lang="ts">
 	import { page } from "$app/stores";
+    import items from "$lib/data/emailList.json";
 
-    const today = new Date();
-    const items = [
-        {
-            title: "Home",
-            link: "/home",
-            subject: "This is the home page.",
-            content: "Hi, my name is Aritra Mondal. Developer, Designer, Gamer ...",
-            attachments: [],
-            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        },
-        {
-            title: "Projects",
-            link: "/projects",
-            subject: "This is the projects page.",
-            content: "A list of all my ongoing and finished projects",
-            attachments: [
-                {
-                    name: "project1.in",
-                    type: "code"
-                },
-                {
-                    name: "+11",
-                    type: "code"
-                }
-            ],
-            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        },
-        {
-            title: "Blogs & Research papers",
-            link: "/papers",
-            subject: "This is the blogs and the research papers page.",
-            content: "A list of all my blogs and research papers",
-            attachments: [
-                {
-                    name: "blog.com",
-                    type: "doc"
-                },
-                {
-                    name: "paper1.pdf",
-                    type: "pdf"
-                },
-                {
-                    name: "+3",
-                    type: "pdf"
-                }
-            ],
-            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        },
-        {
-            title: "Experience",
-            link: "/experience",
-            subject: "This is the experience me page.",
-            attachments: [],
-            content: "I've been working as a SDE for the last 4 years and this is a list of all my professional experience so far.",
-            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        },
-        {
-            title: "Skills & Achievements",
-            link: "/skills-achievements",
-            subject: "This is the Skill and achievements page.",
-            content: "A list of all my skills and achievements",
-            attachments: [],
-            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        },
-        {
-            title: "Education",
-            link: "/education",
-            subject: "This is the education page.",
-            content: "A list of all my educational qualifications",
-            attachments: [],
-            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        },
-        {
-            title: "Resume",
-            link: "/resume",
-            subject: "This is the resume page.",
-            content: "This is a link to my resume.",
-            attachments: [
-                {
-                    name: "resume.pdf",
-                }
-            ],
-            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        }
-    ]
+    const date = new Date();
+    const today = `${date.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(date.getMonth())}`;
 
 </script>
 
@@ -103,7 +21,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.372L8.552 18.32m.009-.01l-.01.01m5.699-9.941l-7.81 7.81a1.5 1.5 0 002.112 2.13" />
                         </svg>
                     {/if}
-                    <span>{item.timestamp}</span>
+                    <span>{today}</span>
                 </div>
             </div>
             <div class="text-sm font-medium">{item.subject}</div>

@@ -1,7 +1,7 @@
 [
     {
         "title": "Designing a Video Streaming Platform 📹",
-        "thumbnail": "blog1.png",
+        "thumbnail": "blog1",
         "description": "",
         "links": [
             {
@@ -14,7 +14,7 @@
     },
     {
         "title": "Effects of different filters on text extractions from videos using TESSERACT",
-        "thumbnail": "paper1.png",
+        "thumbnail": "paper1",
         "description": "",
         "links": [
             {
@@ -27,7 +27,7 @@
     },
     {
         "title": "Cross-platform Desktop Apps, using Electron.",
-        "thumbnail": "article1.png",
+        "thumbnail": "article1",
         "description": "Electron(formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub.",
         "links": [
             {
@@ -40,7 +40,7 @@
     },
     {
         "title": "Deploying Django Apps on Heroku",
-        "thumbnail": "article2.png",
+        "thumbnail": "article2",
         "description": "Deploying Django apps on Heroku, Heroku is a PaaS that enables developers to build, run, and operate applications.",
         "links": [
             {
@@ -53,7 +53,7 @@
     },
     {
         "title": "Deploying Django Apps on AWS/Any VPS",
-        "thumbnail": "article1.png",
+        "thumbnail": "article1",
         "description": "Coming Soon!",
         "links": [
             {

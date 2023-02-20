@@ -1,10 +1,17 @@
 <script lang="ts">
+	import { onMount } from "svelte";
+
+
     export let item: any;
+    let thumbnail: any;
+    onMount(async () => {
+        thumbnail = (await import(`../../lib/images/${item.logo}.png`)).default;
+    })
 </script>
 
 <div class="card p-8">
     <div class="text-lg font-bold flex items-center mb-6">
-        <img class="h-10 rounded-md" src="https://raw.githubusercontent.com/aritra1999/aritra1999.github.io.svelte/master/src/lib/images/{item.logo}" alt="{item.name}"/>
+        <img class="h-8 rounded-md" src={thumbnail} alt="{item.name}"/>
         <h3 class="pl-4 ml-4 border-l-2 border-slate-300 text-xl font-bold ">{item.name}</h3>
     </div>
     <ol class="mx-4 relative border-l border-gray-200">                  

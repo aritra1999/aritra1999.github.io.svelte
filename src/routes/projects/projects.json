@@ -1,7 +1,7 @@
 [
     {
         "title": "rand0m",
-        "thumbnail": "random.png",
+        "thumbnail": "random",
         "description": "A collection of random apps, games and links",
         "links": [
             {
@@ -18,7 +18,7 @@
     },
     {
         "title": "GitBub",
-        "thumbnail": "gitbub.png",
+        "thumbnail": "gitbub",
         "description": "Fancy github profile page",
         "links": [
             {
@@ -35,7 +35,7 @@
     },
     {
         "title": "Self Driving Car",
-        "thumbnail": "sdc.png",
+        "thumbnail": "sdc",
         "description": "Sef driving car using basic nural networks and no libraries.",
         "links": [
             {
@@ -52,7 +52,7 @@
     },
     {
         "title": "Better Class",
-        "thumbnail": "betterclass.png",
+        "thumbnail": "betterclass",
         "description": "A classroom space with realtime white-board and chat system to discuss and collaborate on ideas using web sockets.",
         "links": [
             {
@@ -65,7 +65,7 @@
     },
     {
         "title": "GoAuth",
-        "thumbnail": "autoclip.png",
+        "thumbnail": "autoclip",
         "description": "Simple authentication system for Go",
         "links": [
             {
@@ -78,7 +78,7 @@
     },
     {
         "title": "DevStack",
-        "thumbnail": "devstack.png",
+        "thumbnail": "devstack",
         "description": "A collaborative portal for sharing projects and ideas and getting feedback.",
         "links": [
             {
@@ -91,7 +91,7 @@
     },
     {
         "title": "Codevox",
-        "thumbnail": "codevox.png",
+        "thumbnail": "codevox",
         "description": "A free and collaborative portal for coding assignments help students and teachers to assess coding skills efficiently.",
         "links": [
             {
@@ -107,7 +107,7 @@
     },
     {
         "title": "CP-IDE",
-        "thumbnail": "cpide.png",
+        "thumbnail": "cpide",
         "description": "A lightweight, cross-platform code editor built with electron for competitive programmers.",
         "links": [
             {
@@ -124,7 +124,7 @@
     },
     {
         "title": "eComm.",
-        "thumbnail": "ecomm.png",
+        "thumbnail": "ecomm",
         "description": "eComm is an ecommerce plaēorm for small scale sellers who produce handmade items.",
         "links": [
             {
@@ -141,7 +141,7 @@
     },
     {
         "title": "Auto Clip",
-        "thumbnail": "autoclip.png",
+        "thumbnail": "autoclip",
         "description": "Simple python project to clip long raw videos to the desired duration.",
         "links": [
             {
@@ -154,7 +154,7 @@
     },
     {
         "title": "JustRun",
-        "thumbnail": "justrun.png",
+        "thumbnail": "justrun",
         "description": "JustRun is an online IDE. Built with django. Simple and easy platform to test your code.",
         "links": [
             {
@@ -171,7 +171,7 @@
     },
     {
         "title": "Newtab",
-        "thumbnail": "newtab.png",
+        "thumbnail": "newtab",
         "description": "NewTab extension for Chrome.",
         "links": [
             {
@@ -188,7 +188,7 @@
     },
     {
         "title": "Email OTP Auth.",
-        "thumbnail": "emailauth.png",
+        "thumbnail": "emailauth",
         "description": "Email-OTP-Auth is a email authentication module for django.",
         "links": [
             {
@@ -201,7 +201,7 @@
     },
     {
         "title": "Ano.",
-        "thumbnail": "ano.png",
+        "thumbnail": "ano",
         "description": "Ano is platform to send message anonymously to your desired person. Built just for fun.",
         "links": [
             {

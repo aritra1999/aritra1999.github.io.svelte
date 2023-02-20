@@ -2,7 +2,7 @@
     "experience": [
         {
             "name": "LeanIX",
-            "logo": "leanix.png",
+            "logo": "leanix",
             "url": "https://leanix.net/",
             "roles": [
                 {
@@ -32,7 +32,7 @@
         },
         {
             "name": "Softway",
-            "logo": "softway.png",
+            "logo": "softway",
             "url": "https://www.softway.com/",
             "roles": [
                 {
@@ -51,7 +51,7 @@
         },
         {
             "name": "Testmandi",
-            "logo": "testmandi.jpg",
+            "logo": "testmandi",
             "url": "https://testmandi.com/",
             "roles": [
                 {
@@ -67,7 +67,7 @@
         },
         {
             "name": "Bharg",
-            "logo": "bharg.png",
+            "logo": "bharg",
             "url": "https://www.bharg.com/",
             "roles": [
                 {
@@ -91,7 +91,7 @@
     "education": [
         {
             "name": "Kalinga Institute of Industrial Technology",
-            "logo": "kiit.png",
+            "logo": "kiit",
             "roles": [
                 {
                     "duration": "June 2018 - May 2022",
@@ -105,7 +105,7 @@
         },
         {
             "name": "Delhi Public School, Ruby Park",
-            "logo": "dps.png",
+            "logo": "dps",
             "roles": [
                 {
                     "role": "Computer Science",
@@ -118,7 +118,7 @@
         },
         {
             "name": "South Point",
-            "logo": "sphs.png",
+            "logo": "sphs",
             "roles": [
                 {
                     "duration": "April 2005 - April 2016",

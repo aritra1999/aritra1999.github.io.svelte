@@ -1,10 +1,12 @@
 <script>
     import "../app.css";
-	import EmailList from "../components/emailList/emailList.svelte";
-    import Navbar from "../components/navbar/navbarContainer.svelte";
-	import Topbar from "../components/topbar/topbar.svelte";
-    import { metaStore } from "../store/metaStore";
-    import { page } from '$app/stores';
+    import { page } from "$app/stores";
+    
+	import EmailList from "$lib/components/emailList/emailList.svelte";
+    import Navbar from "$lib/components/navbar/navbarContainer.svelte";
+	import Topbar from "$lib/components/topbar/topbar.svelte";
+
+    import { metaStore } from "$lib/store/metaStore";
 
     $: innerWidth = 0
     $: metaStore.set({ screen: innerWidth < 850 ? 'mobile' : 'desktop', showSidebar: innerWidth >= 1200 })

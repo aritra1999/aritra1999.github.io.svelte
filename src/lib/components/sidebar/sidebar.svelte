@@ -1,7 +1,7 @@
 <script lang="ts">
-    import Contact from './contact.svelte';
-    import sideBarContent from './sidebarData.json';
-    import { metaStore } from '../../store/metaStore';
+    import Contact from "$lib/components/sidebar/contact.svelte";
+    import sideBarContent from "$lib/data/sidebarData.json";
+    import { metaStore } from "$lib/store/metaStore";
     
     const sidebarItems = sideBarContent.sidebarItems;
     const sidebarSocialItems = sideBarContent.sidebarSocialItems;

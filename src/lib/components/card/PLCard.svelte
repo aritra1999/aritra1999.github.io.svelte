@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { onMount } from "svelte";
-    import type { PLItem } from "../../types/types";
+    import type { PLItem } from "$lib/types/types";
     
     export let item: PLItem;    
     let thumbnail: any;
     onMount(async () => {
-        thumbnail = (await import(`../../lib/images/${item.thumbnail}.png`)).default;
+        thumbnail = (await import(`../../images/${item.thumbnail}.png`)).default;
     })
 
 </script>

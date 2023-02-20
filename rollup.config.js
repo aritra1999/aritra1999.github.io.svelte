@@ -17,7 +17,19 @@ export default {
             "justrun",
             "newtab",
             "emailauth",
-            "ano"
+            "ano",
+            "leanix",
+            "softway",
+            "testmandi",
+            "bharg",
+            "kiit",
+            "dps",
+            "sphs",
+            "blog1",
+            "paper1",
+            "article1",
+            "article2",
+            "article1"
         ]
     })
   ]

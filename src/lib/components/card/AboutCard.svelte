@@ -5,7 +5,7 @@
     export let item: any;
     let thumbnail: any;
     onMount(async () => {
-        thumbnail = (await import(`../../lib/images/${item.logo}.png`)).default;
+        thumbnail = (await import(`../../images/${item.logo}.png`)).default;
     })
 </script>
 

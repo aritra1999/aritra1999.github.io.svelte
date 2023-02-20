@@ -1,5 +1,5 @@
 <script>
-  import topbarItems from './topbar.json';
+  import topbarItems from "$lib/data/topbar.json";
 </script>
 <div class="w-full overflow-x-auto flex space-x-4 pt-2 topbar border-b-2">
     <div class="w-40 flex space-x-4 items-center justify-center py-3 px-4 text-sm font-medium border-b-4 border-transparent border-red-500 text-red-500">

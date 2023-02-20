@@ -1,6 +1,6 @@
 <script lang="ts">
-    import papers from './papers.json';
-    import PLCard from '../../components/card/PLCard.svelte';
+    import papers from "$lib/data/papers.json";
+    import PLCard from "$lib/components/card/PLCard.svelte";
 </script>
 
 <div class="lg:px-16 md:px-6 px-6 py-10">

@@ -1,7 +1,7 @@
 <script lang="ts">
-    import "./navbar.css";
-    import Sidebar from "../sidebar/sidebar.svelte";
-    import Profile from "./profile.svelte";    
+    import "$lib/components/navbar/navbar.css";
+    import Sidebar from "$lib/components/sidebar/sidebar.svelte";
+    import Profile from "$lib/components/navbar/profile.svelte";
 </script>
 
 <div class="navbar-container px-8 py-2">

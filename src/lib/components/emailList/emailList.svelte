@@ -50,18 +50,41 @@
             timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
         },
         {
-            title: "About me",
-            link: "/about",
-            subject: "This is the about me page.",
-            content: "A brief about my education, work experience, achievements and skills ...",
+            title: "Experience",
+            link: "/experience",
+            subject: "This is the experience me page.",
+            attachments: [],
+            content: "I've been working as a SDE for the last 4 years and this is a list of all my professional experience so far.",
+            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
+        },
+        {
+            title: "Skills & Achievements",
+            link: "/skills-achievements",
+            subject: "This is the Skill and achievements page.",
+            content: "A list of all my skills and achievements",
+            attachments: [],
+            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
+        },
+        {
+            title: "Education",
+            link: "/education",
+            subject: "This is the education page.",
+            content: "A list of all my educational qualifications",
+            attachments: [],
+            timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
+        },
+        {
+            title: "Resume",
+            link: "/resume",
+            subject: "This is the resume page.",
+            content: "This is a link to my resume.",
             attachments: [
                 {
                     name: "resume.pdf",
-                    type: "pdf"
                 }
             ],
             timestamp: `${today.getDate()} / ${new Intl.DateTimeFormat("en-US", {month: "short"}).format(today.getMonth())}`
-        },
+        }
     ]
 
 </script>

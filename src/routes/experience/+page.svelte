@@ -1,6 +1,9 @@
 <script>
     import AboutCard from "$lib/components/card/AboutCard.svelte";
     import items from "$lib/data/about.json";
+
+    const experiences = items.experience;
+
 </script>
 <div class="pb-24 pt-4 lg:px-16 md:px-6 px-2">
     <div class="my-4">
@@ -8,7 +11,7 @@
             Work Experience
         </span>
         <div class="p-4 md:columns-2 columns-1 gap-4">
-            {#each items.experience as experience}
+            {#each experiences as experience}
                 <AboutCard  item={experience}/>
             {/each}
         </div>

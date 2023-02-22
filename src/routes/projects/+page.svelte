@@ -3,7 +3,7 @@
     import PLCard from "$lib/components/card/PLCard.svelte";
 </script>
 
-<div class="lg:px-16 md:px-6 px-6 py-10">
+<div class="px-3 lg:px-6 py-10">
     <h2 class="magical-underline text-3xl font-semibold mb-8 w-fit">
         Projects
     </h2>

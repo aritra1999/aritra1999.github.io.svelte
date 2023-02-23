@@ -17,10 +17,10 @@
 </script>
 
 {#if $page.url.pathname !== '/'}
-    <div class="flex justify-between sm:justify-end p-4 space-x-4 border-t border-zinc-200">
+    <div class="flex justify-between sm:justify-end p-4 space-x-4 border-t border-zinc-300 font-medium">
         {#each options as option}
-            <button class="flex items-center px-3 py-2 sm:px-4 sm:py-2 rounded-lg border border-zinc-200 text-zinc-600 hover:bg-blue-700 hover:text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mr-2 mb-1">
+            <button class="flex items-center px-3 py-2 sm:px-4 sm:py-2 text-sm rounded-lg border border-zinc-400 text-zinc-500 hover:bg-blue-700 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 h-3 mr-2 mb-1">
                     {@html option.icon}
                 </svg>                 
                 <div>{option.title}</div> 

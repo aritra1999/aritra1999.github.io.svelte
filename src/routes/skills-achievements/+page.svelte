@@ -27,9 +27,9 @@
         </span>
         <div class="p-4">
             <ul class="pl-4 list-disc list-outside">
-                <li>C, C++, Python, Java, JavaScript, Typescript, SQL, Go. </li>
-                <li>Django, Node, React JS, Next JS, Angular, Electron. </li>
-                <li>Git, CI/CD, AWS, Azure, GCP, UI/UX, Figma, Docker. </li>
+                <li><span class="font-medium">Languages: </span> C, C++, Python, Java, JavaScript, Typescript, SQL, Go. </li>
+                <li><span class="font-medium">Frameworks: </span> Django, Node, React JS, Next JS, Angular, Electron, Svelte, SvelteKit. </li>
+                <li><span class="font-medium">Technologies: </span>Git, CI/CD, AWS, Azure, GCP, UI/UX, Figma, Docker. </li>
             </ul>
         </div>
     </div>

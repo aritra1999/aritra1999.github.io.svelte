@@ -50,18 +50,5 @@
         ],
         "tags": ["Deployment", "Django", "Heroku", "ACE" , "Git", "Develpment"],
         "ongoing": false
-    },
-    {
-        "title": "Deploying Django Apps on AWS/Any VPS",
-        "thumbnail": "article1",
-        "description": "Coming Soon!",
-        "links": [
-            {
-                "type": "Coming Soon",
-                "link": "#"
-            }
-        ],
-        "tags": ["Deployment", "Django", "Heroku", "ACE" , "Git", "Develpment"],
-        "ongoing": true
     }
 ]

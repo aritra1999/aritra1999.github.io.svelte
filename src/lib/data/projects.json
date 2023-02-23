@@ -1,5 +1,18 @@
 [
     {
+        "title": "vQueue",
+        "thumbnail": "vqueue",
+        "description": "Processing queues for video streaming services",
+        "links": [
+            {
+                "type": "Github",
+                "link": "https://github.com/aritra1999/vqueue"
+            }
+        ],
+        "tags": ["Go", "System Design", "Architecture"],
+        "ongoing": true
+    },
+    {
         "title": "rand0m",
         "thumbnail": "random",
         "description": "A collection of random apps, games and links",
@@ -9,7 +22,7 @@
                 "link": "https://github.com/aritra1999/random"
             },
             {
-                "type": "Vist site",
+                "type": "Visit site",
                 "link": "https://rand0m.vercel.app/"
             }
         ],
@@ -26,7 +39,7 @@
             "link": "https://github.com/aritra1999/gitbub"
             },
             {
-                "type": "Vist site",
+                "type": "Visit site",
                 "link": "https://gitbub.vercel.app/aritra1999"
             }
         ],
@@ -36,7 +49,7 @@
     {
         "title": "Self Driving Car",
         "thumbnail": "sdc",
-        "description": "Sef driving car using basic nural networks and no libraries.",
+        "description": "Sef driving car using basic neural networks and no libraries.",
         "links": [
             {
                 "type": "Github",
@@ -47,7 +60,7 @@
                 "link": "https://aritra1999.github.io/SDC/"
             }
         ],
-        "tags": ["JS", "Nural Networks", "Github Pages"],
+        "tags": ["JS", "Neural Networks", "Github Pages"],
         "ongoing": false
     },
     {
@@ -60,12 +73,12 @@
                 "link": "https://github.com/aritra1999/Major-Project/"
             }
         ],
-        "tags": ["Django", "Websockets", "Redis", "Tailwind", "SQL"],
+        "tags": ["Django", "Websocket", "Redis", "Tailwind", "SQL"],
         "ongoing": false
     },
     {
         "title": "GoAuth",
-        "thumbnail": "autoclip",
+        "thumbnail": "goauth",
         "description": "Simple authentication system for Go",
         "links": [
             {
@@ -83,7 +96,7 @@
         "links": [
             {
                 "type": "Live Site",
-                "link": "https://devstackapp.herokuapp.com/"
+            "link": "https://devstack.onrender.com"
             }
         ],
         "tags": ["Python", "Django", "AWS RDS", "Heroku", "Github Authentication", "Multiple Theme"],
@@ -96,7 +109,7 @@
         "links": [
             {
                 "type": "Live Site",
-                "link": "http://codevox.kiit.ac.in/"
+                "link": "https://codevox.onrender.com"
             }, {
                 "type": "Trailer",
                 "link": "https://www.youtube.com/watch?v=UvBxxdOy1fI"
@@ -125,7 +138,7 @@
     {
         "title": "eComm.",
         "thumbnail": "ecomm",
-        "description": "eComm is an ecommerce plaēorm for small scale sellers who produce handmade items.",
+        "description": "eComm is an scommerce platform for small scale sellers who produce handmade items.",
         "links": [
             {
                 "type": "Github",
@@ -162,12 +175,12 @@
                 "link": "https://github.com/aritra1999/JustRun/"
             },
             {
-                "type": "Live",
-                "link": "http://justrun.ml/"
+                "type": "Live (Rebuilding)",
+                "link": "#"
             }
         ],
         "tags": ["Django", "Python", "Online IDE", "Lambda Functions", "AWS", "ACE"],
-        "ongoing": false
+        "ongoing": true
     },
     {
         "title": "Newtab",
@@ -214,6 +227,19 @@
             }
         ],
         "tags": ["Anonymous messaging", "Python", "Django", "Heroku"],
+        "ongoing": false
+    },
+    {
+        "title": "Portfolio Site archives",
+        "thumbnail": "mysite-archives",
+        "description": "An archive of all my previous portfolio sites built with different technologies that I've learnt over the years.",
+        "links": [
+            {
+                "type": "Github",
+                "link": "https://github.com/aritra1999/aritra1999.github.io.archive"
+            }
+        ],
+        "tags": ["React", "NextJS", "Angular", "Django", "Svelte", "Vercel"],
         "ongoing": false
     }
 ]

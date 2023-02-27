@@ -11,7 +11,7 @@
     import { metaStore } from "$lib/store/metaStore";
 
     $: innerWidth = 0
-    $: metaStore.set({ screen: innerWidth < 850 ? 'mobile' : 'desktop', showSidebar: innerWidth >= 1200, showContactForm: true })
+    $: metaStore.set({ screen: innerWidth < 850 ? 'mobile' : 'desktop', showSidebar: innerWidth >= 1200, showContactForm: false })
 
 </script>
 <svelte:window bind:innerWidth />

@@ -1,6 +1,5 @@
 <script>
-    import AboutCard from "$lib/components/card/AboutCard.svelte";
-    import items from "$lib/data/about.json";
+    
 </script>
 <div class="pb-24 pt-4 lg:px-16 md:px-6 px-2">
     <div class="my-4">

@@ -7,11 +7,11 @@
 	import Topbar from "$lib/components/topbar/topbar.svelte";
     import EmailTop from "$lib/components/emailTemplate/emailTop.svelte";
     import EmailBottom from "$lib/components/emailTemplate/emailBottom.svelte";
-
+    import ContactForm from "$lib/components/contact/ContactForm.svelte";
     import { metaStore } from "$lib/store/metaStore";
 
     $: innerWidth = 0
-    $: metaStore.set({ screen: innerWidth < 850 ? 'mobile' : 'desktop', showSidebar: innerWidth >= 1200 })
+    $: metaStore.set({ screen: innerWidth < 850 ? 'mobile' : 'desktop', showSidebar: innerWidth >= 1200, showContactForm: false })
 
 </script>
 <svelte:window bind:innerWidth />
@@ -34,4 +34,6 @@
         </div>
     </div>
 </div>
-
+{#if $metaStore.showContactForm}
+    <ContactForm />
+{/if}

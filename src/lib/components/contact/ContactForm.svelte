@@ -1,7 +1,7 @@
 <script>
     import { metaStore } from "$lib/store/metaStore";
 </script>
-<div class="absolute bottom-5 md:right-5 right-0 w-[min(600px,100vw)] bg-white border border-black-100 z-70 rounded-lg shadow-lg">  
+<div class="absolute bottom-5 right-5 w-[min(600px,100vw)] bg-white border border-black-100 z-70 rounded-lg shadow-lg">  
     <div class="bg-slate-900 text-white py-3 px-4 w-full rounded-t-lg flex items-center justify-between">
         New Message
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

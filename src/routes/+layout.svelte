@@ -7,7 +7,7 @@
 	import Topbar from "$lib/components/topbar/topbar.svelte";
     import EmailTop from "$lib/components/emailTemplate/emailTop.svelte";
     import EmailBottom from "$lib/components/emailTemplate/emailBottom.svelte";
-
+    import ContactForm from "$lib/components/contact/ContactForm.svelte";
     import { metaStore } from "$lib/store/metaStore";
 
     $: innerWidth = 0
@@ -34,4 +34,4 @@
         </div>
     </div>
 </div>
-
+<ContactForm />

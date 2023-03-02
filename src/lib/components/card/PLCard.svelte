@@ -6,7 +6,7 @@
     let thumbnail: any;
     onMount(async () => {
         thumbnail = (await import(`../../images/${item.thumbnail}.png`)).default;
-    })
+    });
 
 </script>
 

@@ -43,3 +43,6 @@
         </a>
     </div>
 {/each}
+<div class="flex justify-center m-2">
+    Made by <a href="https://github.com/aritra1999" class="underline mx-1" target="_blank" rel="noreferrer">aritra1999</a> with ❤️. 
+</div>

@@ -3,13 +3,20 @@
     import { page } from "$app/stores";
 	import EmailTopIcons from "./emailTopIcons.svelte";
 
-</script>
+    import emails from "$lib/data/emailList.json";
+
+    const pageName = emails.filter(email => {
+        return email.link === $page.url.pathname
+    })[0];
+
+
+</script>   
 {#if $page.url.pathname !== '/'}
     {#if $metaStore.screen === 'desktop'}
         <div class="py-4 px-10">
             <div class="flex justify-between items-center">
                 <div class="flex items-center">
-                    <h3 class="text-lg"> Welcome to the page.</h3>
+                    <h3 class="text-lg"> Welcome to the {pageName.title} page.</h3>
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="ml-4 h-5 w-5" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.5 17H15l3.5-5L15 7H6.5l3.5 5l-3.5 5m8.5 2H3l4.5-7L3 5h12c.69 0 1.23.3 1.64.86L21 12l-4.36 6.14c-.41.56-.95.86-1.64.86Z"></path></svg>
                     <div class="ml-4 text-xs bg-slate-200 px-2 py-1 rounded-md">Inbox</div>
                 </div>

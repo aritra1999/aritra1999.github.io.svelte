@@ -9,7 +9,7 @@
         <div class="flex items-center space-x-4">
             Primary
             <span class="inline-flex items-center justify-center pt-0.5 px-2 ml-2 text-xs font-semibold text-red-500 bg-red-100 rounded-full">
-                5
+                7
             </span>            
         </div>
     </div>

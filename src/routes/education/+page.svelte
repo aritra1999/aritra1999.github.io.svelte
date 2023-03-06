@@ -5,12 +5,12 @@
     const educationList = items.education;
 
 </script>
-<div class="pb-24 pt-4 lg:px-16 md:px-6 px-2">
+<div class="px-3 lg:px-6 py-10">
     <div class="my-4">
         <span class="magical-underline text-3xl font-bold">
-            Eucation
+            Education
         </span>
-        <div class="p-4 md:columns-2 columns-1 gap-6">
+        <div class="p-4 xl:columns-2 columns-1 gap-6">
             {#each educationList as education}
                 <AboutCard item={education} />
             {/each}

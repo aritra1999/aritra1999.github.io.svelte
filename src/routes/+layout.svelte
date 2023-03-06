@@ -1,7 +1,8 @@
 <script>
     import "../app.css";
     import { page } from "$app/stores";
-    
+    import { dev } from '$app/environment';
+    import { inject } from '@vercel/analytics';
 	import EmailList from "$lib/components/emailList/emailList.svelte";
     import Navbar from "$lib/components/navbar/navbarContainer.svelte";
 	import Topbar from "$lib/components/topbar/topbar.svelte";
@@ -10,6 +11,7 @@
     import ContactForm from "$lib/components/contact/ContactForm.svelte";
     import { metaStore } from "$lib/store/metaStore";
 
+    inject({ mode: dev ? 'development' : 'production' });
     $: innerWidth = 0
     $: metaStore.set({ screen: innerWidth < 850 ? 'mobile' : 'desktop', showSidebar: innerWidth >= 1200, showContactForm: false })
 

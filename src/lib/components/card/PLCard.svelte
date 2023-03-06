@@ -12,7 +12,7 @@
 
 <div class="card">
     <div class="w-full h-48">
-        <img class="rounded-t-2xl object-cover w-full h-48" alt="{item.title}" src={thumbnail}>
+        <img class="rounded-t-2xl object-cover w-full h-48" alt="{item.title}" src="https://drive.google.com/uc?export=view&id=1eXKSLI17_s0w4FmOiPIFSO-AjE054WWg">
     </div>
     <div class="pt-6 px-6 pb-4">
         <div class="mb-2 flex items-center">

@@ -10,6 +10,8 @@
     import EmailBottom from "$lib/components/emailTemplate/emailBottom.svelte";
     import ContactForm from "$lib/components/contact/ContactForm.svelte";
     import { metaStore } from "$lib/store/metaStore";
+    
+    console.log(dev);
 
     inject({ mode: dev ? 'development' : 'production' });
     $: innerWidth = 0

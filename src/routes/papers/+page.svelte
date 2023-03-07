@@ -1,9 +1,7 @@
 <script lang="ts">
     import papers from "$lib/data/papers.json";
     import PLCard from "$lib/components/card/PLCard.svelte";
-    import { metaStore } from "$lib/store/metaStore";
-    $: console.log($metaStore.showSidebar);
-     
+    import { metaStore } from "$lib/store/metaStore";     
 </script>
 
 <div class="px-3 lg:px-6 py-10">

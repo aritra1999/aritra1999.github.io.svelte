@@ -15,7 +15,6 @@
         }
 
         const { data, error } = await supabase.from("MySiteContact").insert([ newMessage ]);
-        console.log(data, error);
         status = (error == null ? "success" : "error");
         loading = false;
         e.target.reset();
